@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import "../static/css/style.css"
 
 class Layout extends Component {
   render() {
@@ -23,7 +24,7 @@ class Layout extends Component {
             rel="stylesheet"
             href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           />
-          <link rel="stylesheet" href="/static/css/style.css" />
+          <link rel="stylesheet" href="/_next/static/css/style.css" />
         </Head>
 
         <Header />
