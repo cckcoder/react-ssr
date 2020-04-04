@@ -1,3 +1,6 @@
+$link-primary: green;
+$link-secondary: darkgreen;
+
 @font-face {
   font-family: "Prompt-Regular";
   src: url("/static/fonts/Prompt-Regular.ttf");
@@ -27,9 +30,9 @@ h6 {
 }
 
 a {
-  color: green;
+  color: $link-primary;
 }
 
 a:hover {
-  color: darkgreen;
+  color: $link-secondary;
 }

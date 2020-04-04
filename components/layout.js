@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import "../static/css/style.css"
+import "../static/css/style.scss"
 
 class Layout extends Component {
   render() {
